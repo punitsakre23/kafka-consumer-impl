@@ -6,7 +6,7 @@
 
 # Setting Up Microservices:
 
-## Utilize Spring Initializr to create two microservices with dependencies on Spring Web and Kafka.
+## Utilise Spring Initializr to create two microservices with dependencies on Spring Web and Kafka.
 ## Configure properties for Kafka consumers, including spring.kafka.consumer.group-id to define the consumer group.
 
 # Key Concepts:
@@ -15,7 +15,7 @@
 ## Topics Attribute: Specifies the Kafka topic to listen to, with values resolved at runtime.
 ## Consumer Group: A set of consumers sharing the same group ID to balance message processing load.
 
-# Kafka Behavior:
+# Kafka Behaviour:
 
 ## Load Balancing: Kafka assigns partitions to consumers within the same group, allowing parallel processing.
 ## Offset Management: Kafka tracks message offsets for fault tolerance and high availability. Each consumer group maintains its offsets, enabling recovery and scalability.
@@ -24,4 +24,4 @@
 
 ## The __consumer_offsets internal topic stores offsets for consumer groups, aiding in message processing continuity.
 ## The recovery-point-offset-checkpoint file is used for tracking last successful offsets, ensuring integrity during recovery.
-## Overall, the content illustrates the practical steps to install Kafka, create microservices with Spring Boot, and understand the critical concepts of message consumption and offset management in Kafka.
+Overall, the content outlines the practical steps for installing Kafka, creating microservices with Spring Boot, and understanding the critical concepts of message consumption and offset management in Kafka.
